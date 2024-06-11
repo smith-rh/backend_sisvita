@@ -10,7 +10,4 @@ python manage.py collectstatic --no-input
 
 # Apply any outstanding database migrations
 python manage.py migrate
-python manage.py createsuperuser --no-input \
-  --username $sisvita \
-  --email $smith.rodriguez@unmsm.edu.pe\
-  --password $123456
+
